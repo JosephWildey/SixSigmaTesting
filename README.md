@@ -8,3 +8,6 @@ Once all that has concluded, it will run a 1-Way ANOVA test and return the f-val
 I wrote this script quickly. and if I have time I will improve its functionality.
 
 In its current form, I do not recommend running the K^2 test and 1-Way ANOVA test. It executes, but returns an error under the result from the 1-Way ANOVA.
+
+Thanks: https://www.pythonfordatascience.org/anova-python/#anova-test
+https://machinelearningmastery.com/a-gentle-introduction-to-normality-tests-in-python/
