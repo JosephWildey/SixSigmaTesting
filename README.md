@@ -1,4 +1,4 @@
-# 1-Way ANOVA
+# OneWay.Py (1-Way ANOVA)
 This script performs a 1-Way ANOVA test, with mostly appropriate checks in place. You can specify a csv file that will be read into a Pandas dataframe. 
 From there, you will get a boxplot and summary of the dataframe. This lets you eyeball the dataset before you dive too deep into analysis.
 Then once you close the boxplot a Shapiro-Wilk and D'Agnostino K^2 test is run on each column of the dataset. For each iteration of each test.
