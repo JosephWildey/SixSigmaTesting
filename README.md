@@ -6,3 +6,5 @@ it will compare the p value of the test to your alpha value, and then determine 
 Once all that has concluded, it will run a 1-Way ANOVA test and return the f-value and p-value. It does not perform a check at this level.
 
 I wrote this script quickly. and if I have time I will improve its functionality.
+
+In its current form, I do not recommend running the K^2 test and 1-Way ANOVA test. It executes, but returns an error under the result from the 1-Way ANOVA.
