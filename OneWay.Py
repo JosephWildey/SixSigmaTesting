@@ -51,4 +51,4 @@ for columnName in df:
 
 
 # calculate and output values from 1-Way Anova
-# print(stats.f_oneway(df['Original Packaging'], df['Padded Envelope'], df['Packing Peanuts']))
+print(stats.f_oneway(df['Original Packaging'], df['Padded Envelope'], df['Packing Peanuts']))
