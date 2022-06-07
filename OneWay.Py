@@ -15,15 +15,15 @@ plt.show()
 # get a statistical summary on the boxplot
 print(df.describe())
 
+# fairly standard alpha value
+alpha = 0.05
+
 print("Running Shaprio-Wilk tests...")
 
 # use a Shapiro-Wilk test to test for normality
 # Runs a separate test on each column
 for columnName in df:
     stat, p = stats.shapiro(df[columnName])
-
-    # fairly standard alpha value
-    alpha = 0.05
 
     # nail down the problematic column giving us a low p-value
     print("p: {}\nalpha: {}".format(p, alpha))
@@ -39,9 +39,6 @@ print("Running K^2 tests...")
 # Use a D'Agostino K^2 test to test for normality
 for columnName in df:
     stat, p = stats.normaltest(df[columnName])
-
-    # fairly standard alpha value
-    alpha = 0.05
 
     # nail down the problematic column giving us a low p-value
     print("p: {}\nalpha: {}".format(p, alpha))
